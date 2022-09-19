@@ -1,6 +1,6 @@
-version '3.8'
+version: '3.8'
 services:
-  rajeshappfirst
+  rajeshappfirst:
     image: rajeshmobiapp:v1
     build: . # calling dockerfile in current location
     container_name: rajc1
