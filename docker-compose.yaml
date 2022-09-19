@@ -1,0 +1,9 @@
+version '3.8'
+services:
+  rajeshappfirst
+    image: rajeshmobiapp:v1
+    build: . # calling dockerfile in current location
+    container_name: rajc1
+    ports: # use any port on host side 1024-60000
+    - "10234:80"
+    restart: always
